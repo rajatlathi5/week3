@@ -1,1 +1,127 @@
+body {
+  font-size: 16px;
+  color: #cc0033;
+  font-family: 'Oxygen', sans-serif;
+}
+h2 { 
+  text-align: center;
+  font-family: cursive;
+}
+h3 {
+	text-align: center;
+	font-family: Consolas;
+}
+#Chicken {
+	text-decoration: none;
+}
+#Beef
+{
+	text-decoration: none;
+}
+#Sushi
+{
+	text-decoration: none;
+}
+p {
+	background-color:#ffe6e6; 
+	color: #000000;
+}
+
+}
+/** HEADER **/
+#header-nav {
+  background-color: #ff99ff;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #cc0033;
+  font-size: 1.60em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  background-color:#ffb3b3;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+/* END HEADER */
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    height: auto;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    height: auto;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    height: auto;
+  }
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+ 
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    
+    height: auto;
+  }
+
+}
+
 
